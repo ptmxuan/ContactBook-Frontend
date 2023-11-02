@@ -12,9 +12,9 @@
       <p v-else>Không có liên hệ nào.</p>
       <div class="mt-3 row justify-content-around align-items-center">
         <button class="btn btn-sm btn-primary" @click="refreshList()"><i class="fas fa-redo"></i> Làm mới</button>
-        <!-- <router-link :to="{ name: 'contact.new' }" class="btn btn-sm btn-success">
+        <router-link :to="{ name: 'contact.add' }" class="btn btn-sm btn-success">
           <i class="fas fa-plus"></i> Thêm mới
-        </router-link> -->
+        </router-link>
         <button class="btn btn-sm btn-danger" @click="removeAllContacts">
           <i class="fas fa-trash"></i> Xóa tất cả
         </button>
